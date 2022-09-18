@@ -42,7 +42,7 @@ img {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: 1px solid pink ;
+    /* outline: 1px solid pink ; */
 }
 
 .title {
@@ -153,14 +153,14 @@ header {
     margin-bottom: 30px;
     width: 696px;
     height: 120px;
-    /* margin-left: auto;
-    margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto;
 
     color: var(--lurge-title-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
@@ -338,8 +338,6 @@ header {
 .card-container {
     width: 370px;
     padding: 20px 24px;
-    /* padding-top: 20px;
-    padding-bottom: 24px; */
     border-right: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;  
     border-bottom: 1px solid #EEEEEE;
@@ -358,43 +356,13 @@ header {
     margin-bottom: 30px;
 }
 
-/* .project {
-    margin-right: 30px;
-    margin-bottom: 30px;
-} */
-
-/* .project:not(:nth-child(3n)) {
-    margin-right: 30px;
-}
-
-.project:not(:nth-last-child(-n + 3)) {
-    margin-bottom: 30px;
-} */
-
 .project:nth-child(3n) {
     margin-right: 0;
 }
 
 .project:nth-last-child(-n + 3) {
     margin-bottom: 0;
-} */
-
-/* .project {
-    flex-basis: calc((100% - 60px) / 3);
-    gap: 30px;
-} */
-
-/* .project:not(:first-child) {
-    margin-left: 30px;
-} */
-
-
-
-/* .project-text {
-    font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 0.03em;
-} */
+} 
 
 /* Footer */
 .footer {
